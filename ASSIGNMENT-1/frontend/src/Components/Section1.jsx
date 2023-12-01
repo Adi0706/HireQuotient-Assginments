@@ -9,7 +9,7 @@ function Section1() {
     <span>Write, plan, share.</span><br/>
     <span>With AI at your side.</span><br/>
     <p>Notion is the connected workspace where better, faster work happens.</p>
-    <button className='btn-2'>Get Notion Free <FaArrowRight/> </button>
+    <button className='btn-2'>Get Notion free <FaArrowRight/> </button>
   </div>
     </div>
     </>

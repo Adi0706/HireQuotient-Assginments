@@ -11,44 +11,48 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-.navbar{
-  
+
+.navbar {
   display: flex;
   align-items: center;
   justify-content: space-between;
   height: 100px;
-  margin-top: -20px;
+  margin-top: -10px;
+
 }
-.list-1{
+
+.list-1 {
   list-style-type: none;
-  
   display: flex;
   align-items: center;
   justify-content: space-evenly;
   margin-top: 10px;
-  
 }
-.list_1-item{
+
+.list_1-item {
   padding: 20px;
   margin-left: -20px;
 }
-.logo-pic{
+
+.logo-pic {
   width: 100px;
   height: 40px;
 }
-.list-2{
+
+.list-2 {
   list-style-type: none;
- 
   display: flex;
   align-items: center;
   justify-content: space-evenly;
   margin-right: 50px;
   margin-top: 8px;
 }
-.list_2-item{
+
+.list_2-item {
   padding: 20px;
 }
-.btn{
+
+.btn {
   background-color: black;
   color: white;
   border: none;
@@ -56,27 +60,30 @@ code {
   padding: 5px;
   font-weight: bolder;
   cursor: pointer;
-  
 }
-.btn:hover{
-  background-color: rgba(128, 128, 128, 0.718);
 
+.btn:hover {
+  background-color: rgba(128, 128, 128, 0.718);
 }
-.section1-container{
+
+.section1-container {
   width: 100vw;
   height: auto;
   text-align: center;
 }
-.section-text1 span{
-font-size: 60px;
-font-weight: bolder;
+
+.section-text1 span {
+  font-size: 60px;
+  font-weight: bolder;
 }
+
 .section-text1 p {
   margin-top: 10px;
   font-size: 25px;
   font-weight: 500;
 }
-.btn-2{
+
+.btn-2 {
   background-color: black;
   color: white;
   border: none;
@@ -86,6 +93,85 @@ font-weight: bolder;
   cursor: pointer;
   font-size: 15px;
 }
-.btn-2:hover{
+
+.btn-2:hover {
   background-color: rgba(128, 128, 128, 0.718);
+}
+
+.image-sketch {
+  width: 100vw;
+  height: 280px;
+}
+
+.image_1 {
+  margin: auto;
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  width: 700px;
+  height: 700px;
+  margin-top: -200px;
+}
+
+.Card-Section {
+  width: 1000px;
+  height: auto;
+  margin-top: 200px;
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: 230px;
+}
+
+.Card {
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px black;
+  width: 250px; 
+  height: 130px;
+  gap: 20px;
+  margin-left: 20px; 
+}
+
+.heading-card {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.GalleryView-container {
+  max-width: 800px;
+  margin: auto;
+}
+
+.carousel-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.carousel-item img {
+  border: 1px solid #ddd; 
+  border-radius: 8px; 
+}
+
+.next-button {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-weight: bolder;
+  cursor: pointer;
+  display: none;
+}
+
+.carousel-item:hover .next-button {
+  display: block;
 }

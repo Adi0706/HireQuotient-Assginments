@@ -16,7 +16,7 @@ function TopBar() {
       <ul className='list-2'>
        <li className='list_2-item'> Request a Demo  </li>
        <li className='list_2-item'> Login </li>
-       <li className='list_2-item'> <button className='btn'>Get Notion Free</button> </li>
+       <li className='list_2-item'> <button className='btn'>Get Notion free</button> </li>
        
       </ul>
     </div>
