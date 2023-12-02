@@ -284,3 +284,32 @@ margin-left: 500px;
 .Team-card h4 {
   margin-top: 10px;
 }
+.global-text{
+  color: black;
+  width: 100vw;
+  height: auto; 
+}
+.global-text img {
+  margin-left: 250px;
+  
+}
+.datasection{
+  
+  width: 100vw;
+  height: auto;
+}
+.data-card{
+  margin-top: 20px;
+  width: 300px;
+  height: 100px;
+  background-color:  #f6f4f4;
+  border-radius: 12px;
+  padding: 3px;
+  margin-left: 150px;
+}
+.Heading-data{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+}

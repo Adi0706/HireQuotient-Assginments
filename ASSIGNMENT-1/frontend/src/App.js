@@ -9,6 +9,8 @@ import CandidateSection from "./Components/CandidateSection";
 import Gallery2 from "./Components/Gallery2";
 import ProjectCards from "./Components/ProjectCards";
 import TeamSection from "./Components/TeamSection";
+import GlobalTextSection from "./Components/GlobalTextSection";
+import DataSection from "./Components/DataSection";
 
 function App() {
   return (
@@ -23,6 +25,8 @@ function App() {
       <Gallery2/>
       <ProjectCards/>
       <TeamSection/>
+      <GlobalTextSection/>
+      <DataSection/>
     </>
   );
 }
