@@ -143,6 +143,8 @@ code {
 .GalleryView-container {
   max-width: 800px;
   margin: auto;
+ 
+  
 }
 
 .carousel-item {
@@ -174,4 +176,111 @@ code {
 
 .carousel-item:hover .next-button {
   display: block;
+}
+.logo-container{
+  margin-top: 90px;
+  width: 100vw;
+  height: auto;
+  text-align: center;
+}
+.candidate-section{
+  width: 100vw;
+  height: auto;
+  text-align: center;
+  margin-top: 100px;
+}
+.candidate-photo-section{
+  display: flex;
+margin-left: 500px;
+}
+.box-logo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+}
+.Canditate-Section{
+  width: 100vw;
+  height: auto;
+  text-align: center;
+  margin-top: 100px;
+
+}
+.heading-text{
+  display: flex;
+  align-items: center;
+  margin-left: 320px;
+}
+.GalleryView{
+  max-width: 800px;
+  margin: auto;
+  background-color: #f6f4f4;
+  padding: 50px;
+  height: 650px;
+  border-radius: 12px;
+  margin-top: -10px;
+  text-align: left;
+}
+.project-card{
+  width: 100vw;
+  height: auto;
+  margin-top: 30px;
+}
+.Cards-proj{
+  
+  display: flex;
+  align-items: center;
+  gap:40px;
+  margin-left: 350px;
+
+}
+.card_1{
+  width: 400px;
+  height: 500px;
+  background-color:  #f6f4f4;
+  border-radius: 12px;
+  padding: 3px;
+}
+.card_2{
+  width: 400px;
+  height: 500px;
+  background-color:  #f6f4f4;
+  border-radius: 12px;
+  padding: 3px;
+}
+.Team-Section {
+  width: 100vw;
+  height: auto;
+  text-align: center;
+}
+
+.card-team {
+  display: flex;
+  justify-content: center;
+}
+
+.Team-card {
+  width: 150px;
+  height: 90px;
+  margin: 10px;
+  border-color: rgb(216, 215, 215);
+  background-color: rgb(207, 202, 202);
+  cursor: pointer;
+
+  border-radius: 20px;
+  text-align: center;
+  transition: transform 0.3s ease-in-out;  
+}
+
+.Team-card:hover {
+  transform: scale(1.05);  
+}
+
+.Team-card img {
+  width: 100%;
+  height: auto;
+}
+
+.Team-card h4 {
+  margin-top: 10px;
 }
