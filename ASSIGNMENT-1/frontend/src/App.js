@@ -12,6 +12,8 @@ import TeamSection from "./Components/TeamSection";
 import GlobalTextSection from "./Components/GlobalTextSection";
 import DataSection from "./Components/DataSection";
 import Section3 from "./Components/Section3";
+import PreFooter from "./Components/PreFooter";
+import Footer from '../src/Components/Footer';
 
 function App() {
   return (
@@ -29,6 +31,8 @@ function App() {
       <GlobalTextSection/>
       <DataSection/>
       <Section3/>
+      <PreFooter/>
+      <Footer/>
     </>
   );
 }

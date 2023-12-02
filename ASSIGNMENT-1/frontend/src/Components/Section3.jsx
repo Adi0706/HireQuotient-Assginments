@@ -51,7 +51,7 @@ function Section3() {
           <Slider {...settings}>
             {images.map((image, index) => (
               <div key={index}>
-                <img src={image} alt={`slide-${index}`} className="carousel-image" />
+                <img src={image} alt={`slide-${index}`} className="carousel-image" style={{height:"500px",width:"700px"}}/>
               </div>
             ))}
           </Slider>
