@@ -11,6 +11,7 @@ import ProjectCards from "./Components/ProjectCards";
 import TeamSection from "./Components/TeamSection";
 import GlobalTextSection from "./Components/GlobalTextSection";
 import DataSection from "./Components/DataSection";
+import Section3 from "./Components/Section3";
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
       <TeamSection/>
       <GlobalTextSection/>
       <DataSection/>
+      <Section3/>
     </>
   );
 }
