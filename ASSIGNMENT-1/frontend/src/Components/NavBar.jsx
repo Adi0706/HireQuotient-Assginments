@@ -10,42 +10,43 @@ function TopBar() {
           <li className='list_1-item dropdown'>
             <span className='dropdown-btn'>Product </span>
             <div className='dropdown-content'>
-              <a href='#' className='dropdown-link'>Sub Item 1</a>
-              <a href='#' className='dropdown-link'>Sub Item 2</a>
-              <a href='#' className='dropdown-link'>Sub Item 3</a>
+              <a href='#' className='dropdown-link'>Projects</a>
+              <a href='#' className='dropdown-link'>Wikis</a>
+              <a href='#' className='dropdown-link'>Docs</a>
+              <a href='#' className='dropdown-link'>Notion AI</a>
             </div>
           </li>
           <li className='list_1-item dropdown'>
             <span className='dropdown-btn'>Download </span>
             <div className='dropdown-content'>
-              <a href='#' className='dropdown-link'>Sub Item 1</a>
-              <a href='#' className='dropdown-link'>Sub Item 2</a>
-              <a href='#' className='dropdown-link'>Sub Item 3</a>
+              <a href='#' className='dropdown-link'>IOS and Android</a>
+              <a href='#' className='dropdown-link'>Mac and Windows</a>
+              <a href='#' className='dropdown-link'>Web Clipper</a>
             </div>
           </li>
           <li className='list_1-item dropdown'>
             <span className='dropdown-btn'>Solutions </span>
             <div className='dropdown-content'>
-              <a href='#' className='dropdown-link'>Sub Item 1</a>
-              <a href='#' className='dropdown-link'>Sub Item 2</a>
-              <a href='#' className='dropdown-link'>Sub Item 3</a>
+              <a href='#' className='dropdown-link'>Enterprise</a>
+              <a href='#' className='dropdown-link'>Small Business</a>
+              <a href='#' className='dropdown-link'>Personal</a>
             </div>
           </li>
           <li className='list_1-item dropdown'>
             <span className='dropdown-btn'>Resources </span>
             <div className='dropdown-content'>
-              <a href='#' className='dropdown-link'>Sub Item 1</a>
-              <a href='#' className='dropdown-link'>Sub Item 2</a>
-              <a href='#' className='dropdown-link'>Sub Item 3</a>
+              <a href='#' className='dropdown-link'>Blog</a>
+              <a href='#' className='dropdown-link'>Guides and Travels</a>
+              <a href='#' className='dropdown-link'>Webinar</a>
+              <a href='#' className='dropdown-link'>Help Center</a>
+              <a href='#' className='dropdown-link'>API Docs</a>
+              <a href='#' className='dropdown-link'>Community</a>
+              <a href='#' className='dropdown-link'>Hire a Consultant</a>
             </div>
           </li>
           <li className='list_1-item dropdown'>
             <span className='dropdown-btn'>Pricing </span>
-            <div className='dropdown-content'>
-              <a href='#' className='dropdown-link'>Sub Item 1</a>
-              <a href='#' className='dropdown-link'>Sub Item 2</a>
-              <a href='#' className='dropdown-link'>Sub Item 3</a>
-            </div>
+         
           </li>
         </ul>
         <ul className='list-2'>

@@ -14,6 +14,7 @@ import DataSection from "./Components/DataSection";
 import Section3 from "./Components/Section3";
 import PreFooter from "./Components/PreFooter";
 import Footer from '../src/Components/Footer';
+import TemplateSection from "./Components/TemplateSection";
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
       <GlobalTextSection/>
       <DataSection/>
       <Section3/>
+      <TemplateSection/>
       <PreFooter/>
       <Footer/>
     </>
